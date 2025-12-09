@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
+.maintitle{
+  margin: 15px;
+  padding: 15px;
+  font-size: 45px;
+  color: crimson;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sectitle{
+  margin: 10px;
+  padding: 10px;
+  font-size: 40px;
+  color: chocolate;
+}
+
+.exctitle{
+  margin: 10px;
+  padding: 10px;
+  font-size: 35px;
+  color: chocolate;
+}
+
+.obj{
+  font-size: 30px;
+  display: inline;
+  color: crimson;
+  font-weight: bolder;
+}
+
+.objdesc{
+  display: inline;
+  font-size: 25px;
+}
+
+ol{
+  font-size: 20px;
+}
+
+button{
+  font-size: 25px;
+  background-color: white;
+  transition: 0.5s;
+  margin: 25px;
+  padding: 25px;
+}
+
+button:hover{
+  background-color: red;
+  cursor: pointer;
+  border: gold;
+  border-radius: 15px;
+}
+
+.lorem{
+  font-size: 25px;
+}
+
+.lorem::first-letter{
+  font-size: 45px;
+  color: tomato;
+  text-decoration: dotted;
+  font-style: oblique;
+}
+
+.desc{
+  font-size: 25px;
+}
+
+.excelem{
+  color: crimson;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid blue;
+  border-radius: 15px;
+}
+
+.excelem::before{
+  content: '★';
+  color: goldenrod;
+}
+
+.label{
+  font-size: 25px;
+  color: darkorange;
+}
+
+input{
+  background-color: white;
+  border: 5px solid crimson;
+  color: black;
+  transition: 0.5s;
+}
+
+input:focus{
+  background-color: black;
+  border: 5px solid blue;
+  color: white;
+}
+
+.listarequerida{
+  font-size: 25px;
+}
+
+.listarequerida li:first-child{
+  font-size: 45px;
+  background-color: aliceblue;
+}
