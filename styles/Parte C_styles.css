@@ -82,3 +82,21 @@ p{
   content: 'Descripción: ';
   font-weight: bold;
 }
+
+.exc2list li:first-child{
+  color: crimson;
+  background-color: lightgray;
+  text-decoration: underline;
+}
+
+.exc2list li:last-child{
+  color: blue;
+  background-color: darkred;
+  text-decoration: wavy underline;
+}
+
+.exc2list li:nth-child(3){
+  color: salmon;
+  background-color: yellowgreen;
+  text-decoration: overline;
+}
