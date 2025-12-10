@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
   background-color: aqua;
+  text-align: justify;
 }
 
 .maintitle{
@@ -99,4 +100,16 @@ p{
   color: salmon;
   background-color: yellowgreen;
   text-decoration: overline;
+}
+
+.exc3par::first-letter{
+  color: crimson;
+  background-color: lightgray;
+  text-decoration: underline;
+}
+
+.exc3par::first-line{
+  color: blue;
+  background-color: darkred;
+  text-decoration: wavy underline;
 }
