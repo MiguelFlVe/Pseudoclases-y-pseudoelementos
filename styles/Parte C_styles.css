@@ -55,6 +55,9 @@ button{
   border-radius: 15px;
   background-color: white;
   transition: 0.5s;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 .inicio:hover{
@@ -112,4 +115,12 @@ p{
   color: blue;
   background-color: darkred;
   text-decoration: wavy underline;
+}
+
+.maintitle::before{
+  content: '\2743';
+}
+
+.maintitle::after{
+  content: '\2743';
 }
