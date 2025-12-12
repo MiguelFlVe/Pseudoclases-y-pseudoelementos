@@ -65,7 +65,7 @@ input:checked + .sectitle{
   background-color: rgba(0, 0, 0, 0.5);
   padding: 25px;
   height: fit-content;
-  max-width: fit-content;
+  max-width: 75%;
   margin: auto;
   display: block;
   text-align: center;
@@ -91,7 +91,7 @@ input:checked + .sectitle{
   margin: auto;
   min-height: 100vh;
   max-height: fit-content;
-  max-width: 50%;
+  max-width: 75%;
   display: grid;
   place-items: center;
   text-align: center;
@@ -195,7 +195,7 @@ input:checked + .sectitle{
   margin: auto;
   min-height: 100vh;
   max-height: fit-content;
-  max-width: 50%;
+  max-width: 75%;
   display: grid;
   place-items: center;
   text-align: center;
@@ -363,6 +363,26 @@ input:checked + .sectitle{
   background-size: contain;
 }
 
+#lore:checked ~ .history > #gowr > .gowrtitle::before{
+  content: 'Gears of war Reloaded';
+}
+
+#lore:checked ~ .history > #gowr > .gowrpar::before{
+  content: 'Gears of War: Reloaded (Gears of War: Recargado, por su traducción) es el noveno juego de la franquicia, siendo un port actualizado de Gears of War: Ultimate Edition, desarrollado por The Coalition en colaboración con Sumo Digital y Disbelief, y publicado por Xbox Game Studios para PlayStation 5, Steam, Xbox Cloud Gaming, Xbox PC y Xbox Series X y Series S.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#lore:checked ~ .history > #gowr > .gowrpar:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Gears_of_War-Reloaded_Keyart_4K.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 #enemies:checked ~ .bosses > div > h2{
   font-size: 40px;
   font-weight: bold;
@@ -383,7 +403,7 @@ input:checked + .sectitle{
   margin: auto;
   min-height: 100vh;
   max-height: fit-content;
-  max-width: 50%;
+  max-width: 75%;
   display: grid;
   place-items: center;
   text-align: center;
