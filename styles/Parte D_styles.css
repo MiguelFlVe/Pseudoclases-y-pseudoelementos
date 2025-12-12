@@ -80,7 +80,7 @@ input:checked + .sectitle{
   margin: auto;
   display: block;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   border: 3px solid black;
   border-radius: 25px;
 }
@@ -95,7 +95,7 @@ input:checked + .sectitle{
   display: grid;
   place-items: center;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(5px);
 }
 
@@ -106,14 +106,15 @@ input:checked + .sectitle{
 #personajes:checked ~ .chara > #Marcus > .mfpar::before{
   content: 'Marcus Michael Fenix, Sargento del Ejército de la Coalición de Gobiernos Ordenados (CGO), protagonista y personaje principal de la primera saga del universo de Gears of War. Un muy reconocido militar durante las Guerras del Péndulo, ganó la Estrella Embry, la más grande condecoración de todas, por sus grandes hazañas en la Batalla de los Campos de Aspho. Al igual que el resto de la humanidad, todo cambió para él después del Día de la Emergencia. Aunque Marcus luchó valientemente contra las tropas Locust durante 10 años, abandonó su puesto para rescatar a su padre, el científico Adam Fenix, pero por desgracia no pudo llegar a tiempo. Fue juzgado por negligencia y abandono en el incumplimiento del deber y condenado a 40 años de prisión en la Cárcel de Máxima Seguridad de Jacinto. Se mantuvo preso 4 años hasta que fue liberado por su compañero y mejor amigo: Dominic Santiago. Marcus reemplazó a Minh Young Kim, el anterior líder del Pelotón Delta, después de su muerte a manos del General RAAM. Junto con el Pelotón Delta, él detonó la Bomba de Masa Ligera y destruyó gran parte de la Hondonada. Con su respeto nuevamente ganado, Marcus participó en la Operación: Tormenta en la Hondonada, en la que se hundió la ciudad de Jacinto. Después de que la CGO se trasladó a Vectes, Marcus luchó contra los Supervivientes y los Lambent, hasta que la CGO se derrumbó tras el abandono del ex-presidente Richard Prescott. Marcus, y el resto de Delta se unieron con otros Gears a bordo del CNV Sovereign, tratando de sobrevivir junto con muchos otros civiles. Marcus está enamorado de la teniente Anya Stroud (y ella de él), éste se sintió atraído hacia ella desde el primer momento en que la vio en una visita que ella realizó junto a su madre (Helena Stroud) a un campo de entrenamiento de Gears, aunque a inicios de conocerse, Marcus nunca le declaro a Anya lo que sentía por ella, su mejor amigo, Dominic Santiago, se lo dijo a Anya más tarde. Al finalizar la guerra Marcus abandono la CGO, y se convirtió en el esposo de Anya Stroud y en el padre de James Dominic Fenix (JD), a quien nombro en memoria de su mejor amigo Dominic Santiago.';
   color: goldenrod;
-  background-image: url(../images/Oldmarcusarmored.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  transition: 0.5s;
 }
 
 #personajes:checked ~ .chara > #Marcus > .mfpar:hover::before{
   color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Oldmarcusarmored.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #personajes:checked ~ .chara > #Dom > .dsbutton::before{
@@ -125,14 +126,15 @@ input:checked + .sectitle{
   color: goldenrod;
   height: 100vh;
   align-content: center;
-  background-image: url(../images/Gears_of_War_3_Personajes_COG_Dom_V2.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  transition: 0.5s;
 }
 
 #personajes:checked ~ .chara > #Dom > .dspar:hover::before{
   color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Gears_of_War_3_Personajes_COG_Dom_V2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #personajes:checked ~ .chara > #Baird > .dbbutton::before{
@@ -142,14 +144,15 @@ input:checked + .sectitle{
 #personajes:checked ~ .chara > #Baird > .dbpar::before{
   content: 'El Cabo Damon S. Baird, anteriormente Teniente, fue un soldado Gear, genio en varios campos técnicos, mecánicos y científicos. Es experto en recolectar, analizar y descifrar tanto armas Locust, como otros tipos de equipos, artefactos y documentos, también se destaca por ser un gran ingeniero, creando distintos artefactos y reparando maquinaria avanzada de la CGO. Líder del Escuadrón Kilo junto a Sofía Hendrick, Garron Paduk y Augustus Cole. Él y Cole se unieron a la Coalición de Gobiernos Ordenados en el Día de la Emergencia, siendo obligados por sus padres a participar. Catorce años más tarde, fue miembro del Pelotón Alfa durante la Ofensiva de Masa Ligera, pero se unió al Escuadrón Delta, junto a Cole, después de que el resto de sus compañeros fueran asesinados. Después de concluir con éxito la Ofensiva, fue asignado para dirigir a Sigma-Uno con Cole, formando parte en varias batallas contra los Locust. Durante la Operación: Tormenta en la Hondonada fue capturado por los Locust para ser torturado, pero por suerte fue hallado y rescatado por el Escuadrón Delta, se volvieron a unir a Delta, y luchó en la campaña para hundir Jacinto. Se unió al resto de la CGO en la evacuación del Puerto Farrall y más tarde en Vectes, donde se vio obligado a ayudar a los supervivientes. Más tarde, participó en la Pandemia Lambent, en la cual Baird daba apoyo táctico, ayudando a formular planes para Delta y Control. Cuando la CGO colapsó, Baird se unió al resto del Delta a bordo del CNV Sovereign como parte de la fuerza de respuesta rápida que ayudaría a varios asentamientos que los restos de la CGO habían establecido en el continente. El estuvo presente durante la Liberación de Azura, ayudando a Delta a activar el Arma Desmanteladora de Imulsión para lograr acabar por fin con la guerra contra la Horda Locust y con el virus del Lambent. Después de 25 años al finalizar la guerra Baird inicio una relación romántica con Samantha Byrne, renunciando a la CGO, convirtiéndose en el líder fundador y científico de "DeeBee industries". Así también como convertirse en el tío de James Dominic Fenix, hijo de su amigo Marcus Fenix, igual que su mejor amigo Cole  participando como una gran figura en el crecimiento y crianza de J.D. Mientras que él dice que es sólo interesado en salvar su propia piel es más feliz dando retoques con maquinaria de bienestar social, que desempeña un papel clave en el Escuadrón Delta. Su sarcasmo ácido y completa falta de tacto son su manera de lidiar con el miedo. Baird utiliza su inteligencias como un arma importante contra los Locust. No sólo ha pasado tiempo estudiando y observando a los Locust pero también viene con algunas formas creativas para deshacerse de ellos. Baird es valorado por sus habilidades técnicas, que son tan nítidas como su sarcasmo. Baird no está muy feliz de ser un soldado, él es bueno en eso. Por desgracia, su mala actitud, mal humor y falta de voluntad general, para asumir cualquier responsabilidad se han interpuesto en el camino de su cargo. Gracioso, inteligente, y a veces egoísta, Baird es sin duda autónomo. Sin embargo, él florece cuando se siente esencial para el éxito del grupo.';
   color: goldenrod;
-  background-image: url(../images/Damon_Baird_infobox.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  transition: 0.5s;
 }
 
 #personajes:checked ~ .chara > #Baird > .dbpar:hover::before{
   color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Damon_Baird_infobox.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #personajes:checked ~ .chara > #Cole > .acbutton::before{
@@ -161,12 +164,201 @@ input:checked + .sectitle{
   color: goldenrod;
   height: 100vh;
   align-content: center;
+  transition: 0.5s;
+}
+
+#personajes:checked ~ .chara > #Cole > .acpar:hover::before{
+  color: rgba(0, 0, 0, 0);
   background-image: url(../images/Augustus_Cole_infobox.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-#personajes:checked ~ .chara > #Cole > .acpar:hover::before{
+#lore:checked ~ .history > div > h2{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 25px;
+  height: fit-content;
+  max-width: fit-content;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+#lore:checked ~ .history > div > p{
+  font-size: 30px;
+  padding: 25px;
+  margin: auto;
+  min-height: 100vh;
+  max-height: fit-content;
+  max-width: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(10px);
+}
+
+#lore:checked ~ .history > #gow1 > .gow1title::before{
+  content: 'Gears of war';
+}
+
+#lore:checked ~ .history > #gow1 > .gow1par::before{
+  content: 'Gears of War es el primer videojuego de la serie Gears of War, mismo que dio inicio a esta última y al universo. Es también el comienzo de la trilogía original. Pertenece al género de disparos en tercera persona, de la categoría acción/horror que además incorpora elementos tácticos. Fue desarrollado por Epic Games y distribuido por Microsoft Studios el 7 de noviembre de 2006 para Xbox 360, y el 1 de noviembre de 2007 para Microsoft Windows. Después de la salida de posteriores entregas, se le refiere comúnmente como Gears of War 1.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#lore:checked ~ .history > #gow1 > .gow1par:hover::before{
   color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Gears_of_War_Portada.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#lore:checked ~ .history > #gow2 > .gow2title::before{
+  content: 'Gears of war 2';
+}
+
+#lore:checked ~ .history > #gow2 > .gow2par::before{
+  content: 'Gears of War 2 es el segundo videojuego de la Serie Gears of War, siendo, al igual que su predecesor, del género de acción y disparos en tercera persona. Fue desarrollado por Epic Games y distribuido por Microsoft Studios. Su salida mundial fue el 7 de noviembre del 2008, de manera exclusiva para la consola Xbox 360. Esta entrega es la secuela directa de Gears of War, lanzado 2 años antes. Narra lo sucedido después de la exitosa activación de la Bomba de Masa Ligera dentro de la Hondonada, a la que sorpresivamente logró sobrevivir la Horda Locust, volviendo con una fuerza aún más poderosa. La Coalición de Gobiernos Ordenados debe ahora encargarse de eliminar a la amenaza desde sus raíces.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#lore:checked ~ .history > #gow2 > .gow2par:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Gears_of_War_2_Portada.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#lore:checked ~ .history > #gow3 > .gow3title::before{
+  content: 'Gears of war 3';
+}
+
+#lore:checked ~ .history > #gow3 > .gow3par::before{
+  content: 'Gears of War 3 es el tercer videojuego de la Serie Gears of War, desarrollado por Epic Games y distribuido por Microsoft Studios como exclusiva para la consola Xbox 360 el 20 de septiembre de 2011. Al igual que sus predecesores, se trata de un juego de disparos en tercera persona, basado en un sistema de coberturas. Esta entrega marca el final de la trilogía protagonizada por Marcus Fenix, en la cual tanto la Horda Locust como la humanidad se ven diezmados por el auge de la especie Lambent.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#lore:checked ~ .history > #gow3 > .gow3par:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Gears_of_War_3_Portada.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#lore:checked ~ .history > #gowj > .gowjtitle::before{
+  content: 'Gears of war Judgement';
+}
+
+#lore:checked ~ .history > #gowj > .gowjpar::before{
+  content: 'Gears of War: Judgment es el cuarto videojuego cronológicamente de la Serie Gears of War, lanzado el 19 de marzo de 2013 en exclusiva para la consola Xbox 360. El juego es una precuela de la trilogía principal de la saga, ya que se desarrolla 30 días después del Día-E, a comienzos de la Guerra Locust. La desarrolladora del juego, Epic Games trabajó en esta entrega, pero solamente en el Multijugador, ya que People Can Fly, creadores de Bulletstorm, se encargaron de la Campaña. La escritora de las novelas de la saga, Karen Traviss, no tuvo nada que ver con este juego a pesar de que narró hechos que acontecieron simultáneamente a la Campaña dentro de sus libros. Los estudios Pixar, creadores de muchas películas animadas, colaboraron en la creación de la historia.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#lore:checked ~ .history > #gowj > .gowjpar:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Portada_Gears_Judgment.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#lore:checked ~ .history > #gowue > .gowuetitle::before{
+  content: 'Gears of war Ultimate Edition';
+}
+
+#lore:checked ~ .history > #gowue > .gowuepar::before{
+  content: 'Gears of War: Ultimate Edition (Gears of War: Edición Definitiva, por su traducción) es el quinto videojuego de la Franquicia de Gears of War, tratándose de una remasterización de la primera entrega de esta, Gears of War, estrenado originalmente en Xbox 360 cerca de 9 años antes. Fue lanzada el 25 de agosto de 2015 para Xbox One, y el 1 de marzo de 2016 para el sistema operativo Windows 10. Al igual que Gears of War 3, esta entrega contó con una beta multijugador previa al lanzamiento. La remasterización del juego incluyo no sólo la Campaña y sus cinemáticas, sino también el modo multijugador del juego original, junto con todo lo que respecta a personajes, mapas, armas, modos de juego y demás.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#lore:checked ~ .history > #gowue > .gowuepar:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Gears_of_War_Ultimate_Edition_Portada.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#lore:checked ~ .history > #gow4 > .gow4title::before{
+  content: 'Gears of war 4';
+}
+
+#lore:checked ~ .history > #gow4 > .gow4par::before{
+  content: 'Gears of War 4 es la sexta entrega de la Saga Gears of War, lanzada mundialmente el 11 de octubre de 2016 como exclusiva para Xbox One y Windows 10. El videojuego soporta el juego cruzado entre ambas plataformas para todos los modos de juego. Se trata de una secuela de Gears of War 3, tomando lugar 25 años después de la Pandemia Lambent y los eventos que culminaron con ella. Gears 4 contó con una beta multijugador previa al lanzamiento, siendo esta la primera vez que el público pudo experimentar el juego.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#lore:checked ~ .history > #gow4 > .gow4par:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Gears_of_War_4_Caratula.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#lore:checked ~ .history > #gow5 > .gow5title::before{
+  content: 'Gears 5';
+}
+
+#lore:checked ~ .history > #gow5 > .gow5par::before{
+  content: 'Gears 5 es la séptima entrega de la saga Gears of War. Es un videojuego de género shooter en tercera persona, desarrollado por The Coalition y publicado por Microsoft Studios. Se estrenó el 10 de septiembre de 2019 para Xbox One y Windows 10 y el 10 de noviembre de 2020 para Xbox Series X y Series S. Fue anunciado oficialmente durante la conferencia de prensa de Xbox en la E3 de 2018.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#lore:checked ~ .history > #gow5 > .gow5par:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Gears_5.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#lore:checked ~ .history > #gowt > .gowttitle::before{
+  content: 'Gears Tactics';
+}
+
+#lore:checked ~ .history > #gowt > .gowtpar::before{
+  content: 'Gears Tactics es el octavo juego de la franquicia, siendo el primer videojuego de estrategia por turnos de la saga Gears of War. El juego fue lanzado el 28 de abril de 2020 en Windows 10 y el 10 de noviembre de 2020 en Xbox One y Xbox Series X y Series S. Este título tiene lugar trece años antes del Gears of War original y está centrado en un nuevo escuadrón personalizable.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#lore:checked ~ .history > #gowt > .gowtpar:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Gears_Tactics.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
