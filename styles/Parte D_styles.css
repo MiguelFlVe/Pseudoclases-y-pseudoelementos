@@ -39,6 +39,14 @@ footer{
   text-align: center;
 }
 
+.pagetitle::before{
+  content: '💀';
+}
+
+.pagetitle::after{
+  content: '💀';
+}
+
 .sectitle{
   display: inline-flex;
   font-size: 50px;
