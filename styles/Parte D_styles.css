@@ -362,3 +362,151 @@ input:checked + .sectitle{
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+#enemies:checked ~ .bosses > div > h2{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 25px;
+  height: fit-content;
+  max-width: fit-content;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+#enemies:checked ~ .bosses > div > p{
+  font-size: 30px;
+  padding: 25px;
+  margin: auto;
+  min-height: 100vh;
+  max-height: fit-content;
+  max-width: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(10px);
+}
+
+#enemies:checked ~ .bosses > #raam > .rtitle::before{
+  content: 'General RAAM';
+}
+
+#enemies:checked ~ .bosses > #raam > .rpar::before{
+  content: 'Uzil RAAM fue el segundo Alto General del Ejército Locust. RAAM fue una vez un soldado Drone, luego un miembro de la Guardia Theron. Su habilidad, intelecto, fuerza y su lealtad a la Horda y la reina Myrrah le valieron el título de líder militar de la Horda Locust. RAAM lideró a la Vanguardia Sangrienta con Skorge contra los Lambent durante la Guerra Lambent. También fue miembro del Consejo Locust durante la Guerra Locust. RAAM tenía la pasión de acabar con todos los Lambent y la Humanidad, y con su inteligencia y fuerza de voluntad, casi lo logra.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#enemies:checked ~ .bosses > #raam > .rpar:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/RAAM_Infobox.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#enemies:checked ~ .bosses > #skorge > .stitle::before{
+  content: 'Skorge';
+}
+
+#enemies:checked ~ .bosses > #skorge > .spar::before{
+  content: 'Ketor Skorge fue el Sumo Sacerdote de la Trinidad de los Gusanos y más tarde el Alto General de la Horda Locust. Skorge lideró la Vanguardia Sangrienta con Vold RAAM durante la Guerra Lambent y lo ayudó a liderar la Horda Locust a la superficie de Sera para comenzar la Guerra Locust. También fue miembro del Consejo Locust. Después de la muerte de Uzil RAAM durante la Ofensiva de Masa Ligera, Ketor Skorge se convirtió en el Comandante Supremo de los Locust a pedido de Uzil RAAM. Debido a que la Bomba de Masa Ligera despertó a su deidad, el Gusano Perforador, Ketor Skorge lideró una ofensiva para hundir ciudades en la Meseta de Jacinto con el fin de debilitar la base y permitir que los Locust hundieran la ciudad de Jacinto, lo que provocó que el agua de mar circundante inundara la Hondonada y ahogara a los Lambent. Sin embargo, los humanos lanzaron un contraataque, la Operación: Tormenta en la Hondonada. Los humanos pudieron invadir Nexus, matar al Gusano Perforador y matar a Ketor Skorge en la batalla.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#enemies:checked ~ .bosses > #skorge > .spar:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Skorge_G5_Infobox.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#enemies:checked ~ .bosses > #myrrah > .mtitle::before{
+  content: 'Reina Myrrah';
+}
+
+#enemies:checked ~ .bosses > #myrrah > .mpar::before{
+  content: 'La Reina Myrrah (también conocida como el sujeto de prueba EV-184-9) fue la principal líder de la Horda Locust, siendo la cabeza y eje del sistema de organización social de los Locust. Curiosamente ella es humana, pero a pesar de esto representaba el centro de la devoción y alabanzas de los Locust. Myrrah formaba parte de los experimentos de Niles Samson destinados a crear soldados que no desobedecieran órdenes a partir de niños enfermos por exposición prolongada a la Imulsión, siendo la única que podía resistir su exposición al organismo sin sufrir consecuencias. Durante su cautiverio tendría una hija, Reyna Díaz que a su vez sería la madre de Kait Díaz, su nieta.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#enemies:checked ~ .bosses > #myrrah > .mpar:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Myrrah_infobox.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#enemies:checked ~ .bosses > #karn > .ktitle::before{
+  content: 'Karn';
+}
+
+#enemies:checked ~ .bosses > #karn > .kpar::before{
+  content: 'Zamil Karn fue un vicioso General Locust que luchó durante la Guerra Lambent y al comienzo de la Guerra Locust, trabajando junto a Uzil RAAM y Kantus Skorge para liderar la campaña Locust contra la humanidad en la superficie de Sera. Considerado uno de los Locust más peligrosos a los que se haya enfrentado la Coalición de Gobiernos Ordenados, Zamil Karn fue uno de los dirigentes del Día de la Emergencia durante la Caída de Gorasnaya. Zamil Karn luego dirigió un asalto a la ciudad de Halvo Bay seis semanas después del Día-E, donde encontró su fin luchando contra el Pelotón Kilo.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#enemies:checked ~ .bosses > #karn > .kpar:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Karn_OP4_G5.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#enemies:checked ~ .bosses > #portavoz > .ptitle::before{
+  content: 'El portavoz';
+}
+
+#enemies:checked ~ .bosses > #portavoz > .ppar::before{
+  content: 'El Portavoz fue un Scion responsable de los secuestros en el Fuerte de los Forasteros. Como Scion y antiguo Locust, era un comandante grande, físicamente poderoso y aparentemente inteligente de las fuerzas del Enjambre que operaban desde los nidos de Fuerte Reval y la Presa Tollen.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#enemies:checked ~ .bosses > #portavoz > .ppar:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Portavoz_SW_infobox_G5.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#enemies:checked ~ .bosses > #reyna > .rdtitle::before{
+  content: 'Reyna Diaz';
+}
+
+#enemies:checked ~ .bosses > #reyna > .rdpar::before{
+  content: 'Reyna Díaz, nacida como Reyna Torres y catalogada como Sujeto TE-872-3, fue una forastera en la era posterior a la Guerra Locust. Ella es la madre de Kait Díaz, esposa de Gabriel Díaz y cuñada de Oscar Díaz, quienes formaron parte de su pueblo.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  transition: 0.5s;
+}
+
+#enemies:checked ~ .bosses > #reyna > .rdpar:hover::before{
+  color: rgba(0, 0, 0, 0);
+  background-image: url(../images/Reina_Reyna_Enjambre_render_G5.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
