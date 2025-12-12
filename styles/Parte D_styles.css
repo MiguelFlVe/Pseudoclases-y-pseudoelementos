@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 1);
+  color: crimson;
+}
+
+a{
+  color: white;
+}
+
+main{
+  background-image: url(../images/Gears_of_war_3_game_official-wide.webp);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer{
+  margin: 5px;
+  padding: 4px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: end;
+  text-align: center;
+}
+
+.pagetitle{
+  margin: 15px;
+  padding: 15px;
+  font-size: 60px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sectitle{
+  display: inline-flex;
+  font-size: 50px;
+  background-color: crimson;
+  color: black;
+  border: 15px solid crimson;
+  border-radius: 15px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  transition: 0.5s;
+}
+
+input:checked + .sectitle{
+  box-shadow: -10px -10px 5px inset;
+}
+
+#inicio:checked ~ .gow > .intro::before{
+  content: 'Gears of War es una serie de videojuegos y de cómics, desarrollada por Epic Games y The Coalition. Los seis juegos que actualmente integran la serie tienen lugar en el planeta ficticio Sera y se centran en una guerra entre humanos y unas criaturas conocidas como Locust. En Gears of War, el protagonista es Marcus Fenix, un soldado o «Gear» en la Coalición de Gobiernos Ordenados, lleva a su equipo en una misión para instalar la bomba de masa ligera y destruir a la horda de Locust en sus fortalezas subterráneas. La secuela Gears of War 2 tiene lugar seis meses después de los acontecimientos del primer juego, y sigue al Escuadrón Delta y el ejército CGO, que lanza un asalto directo contra La Hondonada, en un esfuerzo por poner fin a la guerra. La tercera entrega, Gears of War 3, trata sobre Marcus y compañía en busca de Adam Fenix para poner fin al arco argumental actual, este es el juego más trabajado de toda la saga. El 19 de marzo de 2013 se estrenó Gears of War: Judgment, siendo este una precuela de la saga principal. A diferencia de la trilogía original, el personaje principal es Damon Baird junto con Augustus Cole. El juego introduce novedades importantes tanto en el modo campaña como en el multijugador. Después de la saga de Halo, Gears of War es la segunda propiedad más importante para Microsoft en su marca Xbox, cosechando unas ventas totales de 32 millones de copias para finales del 2019.';
+  font-size: 35px;
+  color: goldenrod;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  height: fit-content;
+  max-width: fit-content;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+#personajes:checked ~ .chara > div > label{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 25px;
+  height: fit-content;
+  max-width: fit-content;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+#personajes:checked ~ .chara > div > p{
+  font-size: 30px;
+  padding: 25px;
+  margin: auto;
+  min-height: 100vh;
+  max-height: fit-content;
+  max-width: 50%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+#personajes:checked ~ .chara > #Marcus > .mfbutton::before{
+  content: 'Marcus Fenix';
+}
+
+#personajes:checked ~ .chara > #Marcus > .mfpar::before{
+  content: 'Marcus Michael Fenix, Sargento del Ejército de la Coalición de Gobiernos Ordenados (CGO), protagonista y personaje principal de la primera saga del universo de Gears of War. Un muy reconocido militar durante las Guerras del Péndulo, ganó la Estrella Embry, la más grande condecoración de todas, por sus grandes hazañas en la Batalla de los Campos de Aspho. Al igual que el resto de la humanidad, todo cambió para él después del Día de la Emergencia. Aunque Marcus luchó valientemente contra las tropas Locust durante 10 años, abandonó su puesto para rescatar a su padre, el científico Adam Fenix, pero por desgracia no pudo llegar a tiempo. Fue juzgado por negligencia y abandono en el incumplimiento del deber y condenado a 40 años de prisión en la Cárcel de Máxima Seguridad de Jacinto. Se mantuvo preso 4 años hasta que fue liberado por su compañero y mejor amigo: Dominic Santiago. Marcus reemplazó a Minh Young Kim, el anterior líder del Pelotón Delta, después de su muerte a manos del General RAAM. Junto con el Pelotón Delta, él detonó la Bomba de Masa Ligera y destruyó gran parte de la Hondonada. Con su respeto nuevamente ganado, Marcus participó en la Operación: Tormenta en la Hondonada, en la que se hundió la ciudad de Jacinto. Después de que la CGO se trasladó a Vectes, Marcus luchó contra los Supervivientes y los Lambent, hasta que la CGO se derrumbó tras el abandono del ex-presidente Richard Prescott. Marcus, y el resto de Delta se unieron con otros Gears a bordo del CNV Sovereign, tratando de sobrevivir junto con muchos otros civiles. Marcus está enamorado de la teniente Anya Stroud (y ella de él), éste se sintió atraído hacia ella desde el primer momento en que la vio en una visita que ella realizó junto a su madre (Helena Stroud) a un campo de entrenamiento de Gears, aunque a inicios de conocerse, Marcus nunca le declaro a Anya lo que sentía por ella, su mejor amigo, Dominic Santiago, se lo dijo a Anya más tarde. Al finalizar la guerra Marcus abandono la CGO, y se convirtió en el esposo de Anya Stroud y en el padre de James Dominic Fenix (JD), a quien nombro en memoria de su mejor amigo Dominic Santiago.';
+  color: goldenrod;
+  background-image: url(../images/Oldmarcusarmored.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#personajes:checked ~ .chara > #Marcus > .mfpar:hover::before{
+  color: rgba(0, 0, 0, 0);
+}
+
+#personajes:checked ~ .chara > #Dom > .dsbutton::before{
+  content: 'Dominic Santiago';
+}
+
+#personajes:checked ~ .chara > #Dom > .dspar::before{
+  content: 'Dominic "Dom" Santiago, Soldado Comando de las Fuerzas Armadas de la Coalición de Gobiernos Ordenados. Fue un duro guerrero que poseyó una actitud positiva incluso en los peores momentos. Liberó a su mejor amigo, Marcus Fenix, de la Cárcel de Máxima Seguridad de Jacinto y lo reclutó para el pelotón Delta. Luego de perder todo por lo que luchaba, Dom se descuidó mucho, participó durante la Pandemia Lambent y se sacrificó para salvar a Delta en la Misión a Mercy.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  background-image: url(../images/Gears_of_War_3_Personajes_COG_Dom_V2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#personajes:checked ~ .chara > #Dom > .dspar:hover::before{
+  color: rgba(0, 0, 0, 0);
+}
+
+#personajes:checked ~ .chara > #Baird > .dbbutton::before{
+  content: 'Damon Baird';
+}
+
+#personajes:checked ~ .chara > #Baird > .dbpar::before{
+  content: 'El Cabo Damon S. Baird, anteriormente Teniente, fue un soldado Gear, genio en varios campos técnicos, mecánicos y científicos. Es experto en recolectar, analizar y descifrar tanto armas Locust, como otros tipos de equipos, artefactos y documentos, también se destaca por ser un gran ingeniero, creando distintos artefactos y reparando maquinaria avanzada de la CGO. Líder del Escuadrón Kilo junto a Sofía Hendrick, Garron Paduk y Augustus Cole. Él y Cole se unieron a la Coalición de Gobiernos Ordenados en el Día de la Emergencia, siendo obligados por sus padres a participar. Catorce años más tarde, fue miembro del Pelotón Alfa durante la Ofensiva de Masa Ligera, pero se unió al Escuadrón Delta, junto a Cole, después de que el resto de sus compañeros fueran asesinados. Después de concluir con éxito la Ofensiva, fue asignado para dirigir a Sigma-Uno con Cole, formando parte en varias batallas contra los Locust. Durante la Operación: Tormenta en la Hondonada fue capturado por los Locust para ser torturado, pero por suerte fue hallado y rescatado por el Escuadrón Delta, se volvieron a unir a Delta, y luchó en la campaña para hundir Jacinto. Se unió al resto de la CGO en la evacuación del Puerto Farrall y más tarde en Vectes, donde se vio obligado a ayudar a los supervivientes. Más tarde, participó en la Pandemia Lambent, en la cual Baird daba apoyo táctico, ayudando a formular planes para Delta y Control. Cuando la CGO colapsó, Baird se unió al resto del Delta a bordo del CNV Sovereign como parte de la fuerza de respuesta rápida que ayudaría a varios asentamientos que los restos de la CGO habían establecido en el continente. El estuvo presente durante la Liberación de Azura, ayudando a Delta a activar el Arma Desmanteladora de Imulsión para lograr acabar por fin con la guerra contra la Horda Locust y con el virus del Lambent. Después de 25 años al finalizar la guerra Baird inicio una relación romántica con Samantha Byrne, renunciando a la CGO, convirtiéndose en el líder fundador y científico de "DeeBee industries". Así también como convertirse en el tío de James Dominic Fenix, hijo de su amigo Marcus Fenix, igual que su mejor amigo Cole  participando como una gran figura en el crecimiento y crianza de J.D. Mientras que él dice que es sólo interesado en salvar su propia piel es más feliz dando retoques con maquinaria de bienestar social, que desempeña un papel clave en el Escuadrón Delta. Su sarcasmo ácido y completa falta de tacto son su manera de lidiar con el miedo. Baird utiliza su inteligencias como un arma importante contra los Locust. No sólo ha pasado tiempo estudiando y observando a los Locust pero también viene con algunas formas creativas para deshacerse de ellos. Baird es valorado por sus habilidades técnicas, que son tan nítidas como su sarcasmo. Baird no está muy feliz de ser un soldado, él es bueno en eso. Por desgracia, su mala actitud, mal humor y falta de voluntad general, para asumir cualquier responsabilidad se han interpuesto en el camino de su cargo. Gracioso, inteligente, y a veces egoísta, Baird es sin duda autónomo. Sin embargo, él florece cuando se siente esencial para el éxito del grupo.';
+  color: goldenrod;
+  background-image: url(../images/Damon_Baird_infobox.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#personajes:checked ~ .chara > #Baird > .dbpar:hover::before{
+  color: rgba(0, 0, 0, 0);
+}
+
+#personajes:checked ~ .chara > #Cole > .acbutton::before{
+  content: 'Augustus Cole';
+}
+
+#personajes:checked ~ .chara > #Cole > .acpar::before{
+  content: 'Augustus "El Tren" Cole, soldado especialista de las Fuerzas Armadas de la Coalición de Gobiernos Ordenados, fue un exitoso jugador de Thrashball conocido por su extravagante y contundente estilo. Después del Día de la Emergencia, Cole se unió al Ejército CGO como un Gear donde se le conoce por su encantador carácter. Cole ha pasado la mayor parte de su carrera militar junto a su amigo, Damon Baird, con el que comenzó esta nueva etapa en su vida. A lo largo de su carrera como Gear, ha rechazado múltiples ascensos, argumentando que eso afectaría la cantidad de Locust que podría matar. Como parte de Delta-Uno, Cole se convirtió en uno de los mejores soldados de la CGO, luchando en grandes y decisivas batallas de la Guerra Locust. Entabló una amistad con Bernadette Mataki, y continuó luchando por la CGO durante el traslado a Vectes, la lucha contra los Supervivientes y la Pandemia Lambent.';
+  color: goldenrod;
+  height: 100vh;
+  align-content: center;
+  background-image: url(../images/Augustus_Cole_infobox.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#personajes:checked ~ .chara > #Cole > .acpar:hover::before{
+  color: rgba(0, 0, 0, 0);
+}
