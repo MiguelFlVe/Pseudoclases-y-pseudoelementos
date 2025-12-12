@@ -125,6 +125,34 @@
 
         <p class="lorem">Se agregó un símbolo con forma de flor tanto antes como después del contenido del encabezado, sin agregarlos directamente dentro de la etiqueta HTML. </p>
       </article>
+
+      <article>
+        <h3 class="exctitle">Actividad 5</h3>
+    
+        <h4 class="obj">Propósito: </h4><p class="objdesc">Integrar pseudoclases y pseudoelementos en un diseño completo.</p>
+
+        <ol>
+          <li>Diseña una tarjeta con título, párrafo y botón.</li>
+
+          <li>Usa pseudoelementos para decoraciones.</li>
+
+          <li>Aplica pseudoclases para interacciones.</li>
+
+          <li>Explica qué decisiones tomaste y por qué.</li>
+        </ol>
+
+        <div class="card" id="card">
+          <input type="checkbox" id="boton" class="switch" hidden>
+          
+          <h3 class="cardtitle"></h3>
+
+          <p class="cardpar"></p>
+
+          <label for="boton" class="cardbutton"></label>
+        </div>
+
+        <p class="lorem">Generé la tarjeta como una invitación a presionar el label del final (estando este vinculado a un input tipo checkbox oculto), el cual hice llamativo para acentuar esa intención. Al acercar el cursor a cada parte de la tarjeta, usando la pseudoclase :hover, se revela un pequeño mensaje, disuadiendo al usuario de pulsar el botón. Finalmente, en caso de que el usuario pulse el label, usé la pseudoclase :checked para verificar la pulsación sobre el label y, en consecuencia, cambiar los textos por mensajes alarmantes por haberlo pulsado. El cambio de textos es posible debido a que los mismos no están escritos directamente sobre el HTML, sino que son pseudoelementos en CSS.</p>
+      </article>
     </section>
   </main>
 </body>

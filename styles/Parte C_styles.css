@@ -124,3 +124,86 @@ p{
 .maintitle::after{
   content: '\2743';
 }
+
+.card{
+  padding: 25px;
+  max-width: 500px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  background-color: #000;
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+.cardtitle::before{
+  content: 'El título de la tarjeta';
+  font-size: 35px;
+  background-color: #000;
+  color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardtitle:hover::before{
+  content: 'Ni se te ocurra pulsar ese botón';
+  font-size: 35px;
+  background-color: #000;
+  color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardpar::before{
+  content: 'Realmente no sé qué puedo poner acá, así que solamente dejaré este texto sin mucho más. Deberías probar a pulsar el botón de abajo.';
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardpar:hover::after{
+  content: 'Si fuera tú, yo no pulsaría ese botón.';
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardbutton::before{
+  content: 'Miren, un botón.';
+  position: relative;
+  background-color: red;
+  width: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 7px solid red;
+  border-radius: 15px;
+}
+
+.cardbutton:hover::before{
+  content: '¿Estás seguro de hacerlo?';
+  position: relative;
+  background-color: red;
+  width: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 7px solid red;
+  border-radius: 15px;
+}
+
+#boton:checked ~ .cardtitle::before{
+  content: 'Oh, no, pulsaste el botón';
+}
+
+#boton:checked ~ .cardpar::before{
+  content: 'No pensé que pulsarías el botón. Ahora nos has condenado a todos.';
+}
+
+#boton:checked ~ .cardbutton::before{
+  content: '¿Por qué pulsaste el botón?';
+}
